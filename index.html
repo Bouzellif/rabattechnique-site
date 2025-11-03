@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RabatTechniQue</title>
+  <meta name="description" content="خدمات إصلاح الأجهزة المنزلية — RabatTechniQue" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/logo.svg" alt="RabatTechniQue" class="logo">
+        <div class="brand-text">
+          <div class="site-name">RabatTechniQue</div>
+          <div class="site-sub">إصلاح الأجهزة المنزلية — Rabat • Salé • Témara</div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="langBtn" class="lang-btn" aria-label="Switch language">FR</button>
+        <a href="#booking" class="cta">اتصل بنا</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h1 data-i18n="hero_title_ar">إصلاح احترافي لأجهزتك المنزلية — بسرعة وصدق</h1>
+        <h1 data-i18n="hero_title_fr" class="hidden">Réparation professionnelle de vos appareils ménagers — rapide et fiable</h1>
+        <p data-i18n="hero_sub_ar">فريق متخصص في تصليح الثلاجات، الغسالات، الأفران والمزيد. خدمة ميدانية أو في الورشة — مع ضمان.</p>
+        <p data-i18n="hero_sub_fr" class="hidden">Équipe spécialisée dans la réparation de réfrigérateurs, lave-linge, fours et plus. Intervention sur place ou en atelier — avec garantie.</p>
+        <div class="hero-actions">
+          <a href="#booking" class="btn btn-primary" data-i18n="book_ar">أطلب خدمة الآن</a>
+          <a href="#services" class="btn btn-outline" data-i18n="book_fr">Réserver</a>
+        </div>
+      </div>
+      <div class="hero-image" aria-hidden="true">
+        <!-- Simple SVG illustration -->
+        <svg width="320" height="220" viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="device">
+          <rect x="10" y="10" width="300" height="200" rx="16" fill="#f1f5f9"/>
+          <rect x="38" y="40" width="244" height="140" rx="10" fill="#ffffff" stroke="#e6eefc"/>
+          <path d="M70 80h180M70 120h100" stroke="#0b6efd" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <h2 data-i18n="services_ar">خدماتنا</h2>
+      <h2 data-i18n="services_fr" class="hidden">Nos services</h2>
+      <div class="cards">
+        <div class="card"><strong data-i18n="fridge_ar">ثلاجات</strong><span class="muted" data-i18n="fridge_desc_ar">فحص نظام التبريد وتغيير الكمبريسور</span><span class="hidden" data-i18n="fridge_fr">Réfrigérateurs — diagnostic et réparation</span></div>
+        <div class="card"><strong data-i18n="washer_ar">غسالات</strong><span class="muted" data-i18n="washer_desc_ar">تصليح الطبل واستبدال المحرك</span><span class="hidden" data-i18n="washer_fr">Lave-linge — réparation moteur et tambour</span></div>
+        <div class="card"><strong data-i18n="oven_ar">أفران</strong><span class="muted" data-i18n="oven_desc_ar">استبدال المقاومات وصيانة السخان</span><span class="hidden" data-i18n="oven_fr">Fours — éléments et thermostat</span></div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section">
+      <h2 data-i18n="pricing_ar">الأسعار</h2>
+      <h2 data-i18n="pricing_fr" class="hidden">Tarifs</h2>
+      <div class="price-grid">
+        <div class="price"><strong data-i18n="check_ar">فحص</strong><div class="muted" data-i18n="check_desc_ar">50 درهم — تقرير وعرض سعر</div></div>
+        <div class="price"><strong data-i18n="basic_ar">إصلاح أساسي</strong><div class="muted" data-i18n="basic_desc_ar">من 150 درهم</div></div>
+        <div class="price"><strong data-i18n="advanced_ar">إصلاح متقدم</strong><div class="muted" data-i18n="advanced_desc_ar">حسب القطعة والعمل</div></div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <h2 data-i18n="gallery_ar">معرض الأعمال</h2>
+      <h2 data-i18n="gallery_fr" class="hidden">Galerie</h2>
+      <div class="gallery">
+        <div class="pic">قبل/بعد — ثلاجة</div>
+        <div class="pic">قبل/بعد — غسالة</div>
+        <div class="pic">ورشة العمل</div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section">
+      <h2 data-i18n="testi_ar">آراء العملاء</h2>
+      <h2 data-i18n="testi_fr" class="hidden">Témoignages</h2>
+      <div class="testimonials">
+        <div class="testimonial"><strong>سعيد — الرباط</strong><p class="muted">خدمة سريعة ومحترفة.</p></div>
+        <div class="testimonial"><strong>Nadia — Salé</strong><p class="muted">Intervention rapide et tarif correct.</p></div>
+      </div>
+    </section>
+
+    <section id="booking" class="section">
+      <h2 data-i18n="book_title_ar">نموذج الحجز</h2>
+      <h2 data-i18n="book_title_fr" class="hidden">Formulaire de réservation</h2>
+
+      <div class="booking-grid">
+        <form id="bookingForm" onsubmit="submitBooking(event)" aria-label="Booking form">
+          <label for="name" data-i18n="label_name_ar">الاسم الكامل</label>
+          <input id="name" name="name" required>
+
+          <label for="phone" data-i18n="label_phone_ar">الهاتف</label>
+          <input id="phone" name="phone" required>
+
+          <label for="device" data-i18n="label_device_ar">نوع الجهاز</label>
+          <select id="device" name="device">
+            <option>ثلاجة</option>
+            <option>غسالة</option>
+            <option>فرن</option>
+            <option>ميكروويف</option>
+            <option>آخر</option>
+          </select>
+
+          <label for="problem" data-i18n="label_problem_ar">وصف المشكلة</label>
+          <textarea id="problem" name="problem" rows="4"></textarea>
+
+          <div class="muted small" data-i18n="note_form_ar">ملاحظة: النموذج شكلي الآن ولن يرسل بيانات — سنربطه لاحقًا بالخدمة الحقيقية.</div>
+          <div class="muted small hidden" data-i18n="note_form_fr">Note: Le formulaire est actuellement non-fonctionnel — il sera connecté plus tard.</div>
+
+          <button type="submit" class="btn btn-primary" data-i18n="send_ar">أرسل</button>
+        </form>
+
+        <aside class="sidebar">
+          <div class="card contact-card">
+            <h3 data-i18n="contact_ar">معلومات التواصل</h3>
+            <div class="muted">الهاتف: 06 XX XX XX XX</div>
+            <div class="muted">الورشة: الرباط</div>
+            <a href="#" class="btn btn-outline" data-i18n="contact_fr">Nous contacter</a>
+          </div>
+
+          <div class="card">
+            <h3 data-i18n="why_ar">لماذا تختارنا؟</h3>
+            <ul class="muted">
+              <li data-i18n="reason1_ar">فنيون مؤهلون</li>
+              <li data-i18n="reason2_ar">قطع موثوقة</li>
+              <li data-i18n="reason3_ar">ضمان بعد الإصلاح</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>© RabatTechniQue — جميع الحقوق محفوظة</div>
+        <div class="muted">جاهز للنشر على GitHub Pages أو أي استضافة ثابتة</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
